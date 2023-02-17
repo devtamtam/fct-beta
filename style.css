@@ -1,11 +1,28 @@
+html {
+    font-size: 62.5%;
+}
 body {
-background: black;
+background-color: #151823;
 color: #fff;
 font-family:'Open Sans',sans-serif;
-font-size:15px;
+font-size:1.6em;
 letter-spacing:2px;
 }
 img{margin:2px;}
+
+.aboutusbox{
+text-align: left;
+margin-top: 14px;
+padding: 20px;
+border: 1px solid #cfc4c4;
+border-width: 2px;
+width: 80%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+border-radius: 40px;
+}
+
 .links {
 text-align: center;
 margin-top: 14px;
@@ -56,7 +73,9 @@ margin-top: 40px;
 font-size: 20px;
 font-weight: bold;
 }
-i{color:rgb(228, 47,155);}
+i{color:rgb(228, 47,155);
+  font-size: 2.4rem;
+}
 
 a:hover {
 color: skyblue;
@@ -72,6 +91,7 @@ hr{border: 1px solid rgb(82, 236, 200);}
 .l-wrapper_06 {
     margin: 1rem auto;
     width: 75%;
+    text-align:left;
   }
   
   .l-wrapper_06:hover {
@@ -106,7 +126,7 @@ hr{border: 1px solid rgb(82, 236, 200);}
     line-height: 1.5;
     margin-bottom: 0.2em;
   }
-  .card-link_06 {
+  /*.card-link_06 {
     text-align: center;
     border-top: 1px solid #eee;
     padding: 20px;
@@ -119,17 +139,18 @@ hr{border: 1px solid rgb(82, 236, 200);}
   .card-link_06 a:hover {
     color: #6bb6ff;
   }
+*/
   
   .card-content_06 p {
     margin-bottom:0;
   }
   /*CARDS 6*/
 
+.bottom-picture{
+  margin-top:0.3em;
+}
   
 /*ft2*/
-
-/**/
-
 
 * {
     margin: 0;
@@ -137,21 +158,11 @@ hr{border: 1px solid rgb(82, 236, 200);}
     box-sizing: border-box;
 }
 
-html {
-    font-size: 62.5%;
-}
-body {
-    font-family: sans-serif;
-    font-size: 1.6rem;
-    background-color: #12131C;
-}
-i {
-    font-size: 2.4rem;
-}
+
 .footer {
     padding-block: 5rem;
-    background-color: #151823;
     color: #babbc5;
+    text-align:left;
 }
 .footer__container {
     max-width: 116rem;
