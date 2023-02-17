@@ -16,7 +16,7 @@ margin-top: 14px;
 padding: 20px;
 border: 1px solid #cfc4c4;
 border-width: 2px;
-width: 80%;
+width: 88%;
 display: block;
 margin-left: auto;
 margin-right: auto;
@@ -116,13 +116,13 @@ hr{border: 1px solid rgb(82, 236, 200);}
     padding: 8px 20px 20px;
   }
   .card-title_06 {
-    font-size: 1.8em;
+    font-size: 1.6em;
     color: #333;
     font-weight: 700;
   }
   .card-text_06 {
     color: rgb(58, 56, 56);
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.5;
     margin-bottom: 0.2em;
   }
@@ -147,7 +147,7 @@ hr{border: 1px solid rgb(82, 236, 200);}
   /*CARDS 6*/
 
 .bottom-picture{
-  margin-top:0.3em;
+  margin-top:0.5em;
 }
   
 /*ft2*/
@@ -221,4 +221,3 @@ hr{border: 1px solid rgb(82, 236, 200);}
     }
 }
 /*ft2*/
- 
