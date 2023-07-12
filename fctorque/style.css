@@ -91,6 +91,7 @@ hr{border: 1px solid rgb(82, 236, 200);}
 .l-wrapper_06 {
     margin: 1rem auto;
     width: 75%;
+    max-width:1100px;
     text-align:left;
   }
   
