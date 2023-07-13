@@ -82,6 +82,12 @@ color: skyblue;
 background: black;
 }
 
+bgmermaid{
+    display: block;
+    background-color: #e8ded8;
+
+}
+
 
 hr{border: 1px solid rgb(82, 236, 200);}
 

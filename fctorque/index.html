@@ -4,7 +4,8 @@
  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
  <link rel="stylesheet" href="style.css">
  <link rel="icon" href="https://cdn.glitch.global/21cbfd12-22e4-493e-a0d4-f71a5c354935/thumbnails%2Ffct0801.png?1659324406467">
-  
+   <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <script>mermaid.initialize({startOnLoad:true});</script>  
  <title>FC-Torque</title>
 </head>
 <body>
@@ -19,6 +20,24 @@
 　<p>省エネ･電池の部門で研究されている伊藤省吾先生をはじめとする兵庫県立大学の先生方にご支援頂いています。工学部(だけではない)の学生が自分たちの手で物を作る経験を積めるプラットフォームとしての役割を担っています．</p>
    </div> 
    <!--<a href="" class="links">なんかのリンク</a>---> 
+
+<div>   
+<bgmermaid shape="rect" coords="0,0,100,100" href="#">
+ <div class='mermaid'>
+graph TD;
+classDef blue fill:#DAE9FC,stroke:#6C8EBF
+classDef yellow fill:#FFF2CC,stroke:#DABC63
+classDef green fill:#D5E8D4,stroke:#96C082
+classDef red fill:#F7CECC,stroke:#CB7F7
+    A["EVをキットから製作する(完了)"]-->B["EVの自作(取組中)"]:::red
+    B2["FC（燃料電池）の製作(取組中)"]:::red-->C
+    B-->D["EVで公道走行"]
+    B-->C["FCVの自作"]
+    D-->E["FCVで公道走行"]:::blue
+    C-->E;
+
+ </div>
+</bgmermaid>
    
 <!---CARDS--> 
    <div class="l-wrapper_06">
@@ -39,6 +58,7 @@
       <img class="card-img_06" src="https://pbs.twimg.com/media/FeECF0SaEAAItu0?format=jpg&name=4096x4096" alt="062">
         <div class="card-content_06">
           <p class="card-title_06">大会出場歴</p>
+          
           <p class="card-text_06">2022.10/02<br>CQ出版 EVミニカート・レース筑波大会 完走<br></p>
         </div>
   </div>
