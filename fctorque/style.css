@@ -10,19 +10,6 @@ letter-spacing:2px;
 }
 img{margin:2px;}
 
-.aboutusbox{
-text-align: left;
-margin-top: 14px;
-padding: 20px;
-border: 1px solid #cfc4c4;
-border-width: 2px;
-width: 88%;
-display: block;
-margin-left: auto;
-margin-right: auto;
-border-radius: 40px;
-}
-
 .links {
 text-align: center;
 margin-top: 14px;
@@ -83,9 +70,8 @@ background: black;
 }
 
 bgmermaid{
-    display: block;
-    background-color: #e8ded8;
-
+  display: block;
+  background-color: #e8ded8;
 }
 
 
@@ -101,15 +87,11 @@ hr{border: 1px solid rgb(82, 236, 200);}
     text-align:left;
   }
   
-  .l-wrapper_06:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 7px 34px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
-    transition: all .5s;
-  }
+ 
   .card_06 {
     background:rgba(240, 248, 255, 0.9) ;
     border-radius: 25px;
-    box-shadow: 0 2px 5px #ccccc;
+    box-shadow: 0 2px 5px #cccc;
   }
   
   .card-img_06 {
@@ -123,15 +105,18 @@ hr{border: 1px solid rgb(82, 236, 200);}
     padding: 8px 20px 20px;
   }
   .card-title_06 {
-    font-size: 1.6em;
+    font-size: 1.4em;
     color: #333;
     font-weight: 700;
   }
   .card-text_06 {
-    color: rgb(58, 56, 56);
+    color: rgb(40, 39, 39);
     font-size: 16px;
     line-height: 1.5;
-    margin-bottom: 0.2em;
+    margin-block-start: 0.8em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
   }
   /*.card-link_06 {
     text-align: center;
